@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cultural Exchange Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Cultural Exchange Platform</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Explore Cultures</h2>
+            <p>Learn about different cultures around the world. Participate in discussions and connect with people globally!</p>
+        </section>
+        <section>
+            <h2>Join Discussions</h2>
+            <p>Discuss cultural topics with people from different countries.</p>
+            <a href="forum.html">Go to the forum</a>
+        </section>
+        <section>
+            <h2>Watch Educational Videos</h2>
+            <p>Learn more about diverse cultures through videos.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/your-video-id" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        <section>
+            <h2>Sign Up for a Pen Pal</h2>
+            <p>Connect with someone from a different culture. Write letters and exchange cultural stories!</p>
+            <iframe src="https://docs.google.com/forms/d/e/your-google-form-id/viewform?embedded=true" width="640" height="992" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </section>
+    </main>
+    <footer>
+        <p>Created with ❤️ by You</p>
+    </footer>
+</body>
+</html>
