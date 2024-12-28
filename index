@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cultural Exchange Platform to learn and discuss different cultures around the world.">
+    <meta name="keywords" content="cultural exchange, learn cultures, discussions, pen pal, educational videos">
+    <meta name="author" content="MarisDoan">
     <title>Cultural Exchange Platform</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -18,21 +21,22 @@
         <section>
             <h2>Join Discussions</h2>
             <p>Discuss cultural topics with people from different countries.</p>
-            <a href="forum.html">Go to the forum</a>
+            <a href="forum.html" target="_blank" rel="noopener noreferrer">Go to the forum</a>
         </section>
         <section>
             <h2>Watch Educational Videos</h2>
             <p>Learn more about diverse cultures through videos.</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/your-video-id" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/your-video-id" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="Educational Videos"></iframe>
         </section>
         <section>
             <h2>Sign Up for a Pen Pal</h2>
             <p>Connect with someone from a different culture. Write letters and exchange cultural stories!</p>
-            <iframe src="https://docs.google.com/forms/d/e/your-google-form-id/viewform?embedded=true" width="640" height="992" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            <iframe src="https://docs.google.com/forms/d/e/your-google-form-id/viewform?embedded=true" width="640" height="992" frameborder="0" marginheight="0" marginwidth="0" title="Pen Pal Signup">Loading…</iframe>
         </section>
     </main>
     <footer>
         <p>Created with ❤️ by You</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
