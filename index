@@ -17,26 +17,45 @@
         <section>
             <h2>Explore Cultures</h2>
             <p>Learn about different cultures around the world. Participate in discussions and connect with people globally!</p>
+            <div class="tags">Tags: <span class="tag">Culture</span> <span class="tag">Global</span></div>
         </section>
         <section>
             <h2>Join Discussions</h2>
             <p>Discuss cultural topics with people from different countries.</p>
             <a href="forum.html" target="_blank" rel="noopener noreferrer">Go to the forum</a>
+            <div class="tags">Tags: <span class="tag">Discussion</span> <span class="tag">Forum</span></div>
         </section>
         <section>
             <h2>Watch Educational Videos</h2>
             <p>Learn more about diverse cultures through videos.</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/your-video-id" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="Educational Videos"></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/your-video-id" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="tags">Tags: <span class="tag">Education</span> <span class="tag">Videos</span></div>
         </section>
         <section>
             <h2>Sign Up for a Pen Pal</h2>
             <p>Connect with someone from a different culture. Write letters and exchange cultural stories!</p>
-            <iframe src="https://docs.google.com/forms/d/e/your-google-form-id/viewform?embedded=true" width="640" height="992" frameborder="0" marginheight="0" marginwidth="0" title="Pen Pal Signup">Loading…</iframe>
+            <iframe src="https://docs.google.com/forms/d/e/your-google-form-id/viewform?embedded=true" width="640" height="992" frameborder="0" marginheight="0" marginwidth="0" title="Pen Pal Sign-Up Form">Loading…</iframe>
+            <div class="tags">Tags: <span class="tag">Pen Pal</span> <span class="tag">Exchange</span></div>
         </section>
     </main>
     <footer>
         <p>Created with ❤️ by You</p>
     </footer>
     <script src="script.js"></script>
+    <script>
+        // Script to apply random colors and fonts
+        document.addEventListener('DOMContentLoaded', function() {
+            const colors = ['#FF5733', '#33FF57', '#3357FF', '#FF33A5', '#33FFF0'];
+            const fonts = ['Arial', 'Verdana', 'Courier New', 'Georgia', 'Times New Roman'];
+            
+            // Apply random color and font to each section
+            document.querySelectorAll('section').forEach(section => {
+                const randomColor = colors[Math.floor(Math.random() * colors.length)];
+                const randomFont = fonts[Math.floor(Math.random() * fonts.length)];
+                section.style.color = randomColor;
+                section.style.fontFamily = randomFont;
+            });
+        });
+    </script>
 </body>
 </html>
